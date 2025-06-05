@@ -1,0 +1,19 @@
+# # Note: this doesn't include tensorflow or tensorflow-gpu because the package you need to install
+# # depends on your platform. It is assumed you have already installed tensorflow.
+# falcon==1.2.0
+# inflect==0.2.5
+# librosa==0.5.1
+# matplotlib==2.0.2
+# numpy==1.14.3
+# scipy==0.19.0
+# tqdm==4.11.2
+# Unidecode==0.4.20
+tensorflow==2.17.0  # Provides tensorflow.compat.v1 for TF 1.x APIs
+falcon==4.0.1       # Latest version of Falcon
+inflect==7.3.1      # Latest version for number-to-word conversion
+librosa==0.10.2     # Latest stable version for audio processing
+matplotlib==3.9.2   # Latest version for plotting
+numpy==1.26.4       # Latest version compatible with TensorFlow 2.17
+scipy==1.14.1       # Latest version compatible with librosa
+tqdm==4.66.5        # Latest version for progress bars
+Unidecode==1.3.8    # Latest version for ASCII transliteration

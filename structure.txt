@@ -1,0 +1,85 @@
+📁 tacotron
+│   📄 .gitignore
+│   📄 demo_server.py
+│   📄 eval.py
+│   📄 hparams.py
+│   📄 LICENSE
+│   📄 preprocess.py
+│   📄 README.md
+│   📄 requirements.txt
+│   📄 synthesizer.py
+│   📄 train.py
+│   📄 TRAINING_DATA.md
+│   📁 .git
+│   │   📄 config
+│   │   📄 description
+│   │   📄 FETCH_HEAD
+│   │   📄 HEAD
+│   │   📄 index
+│   │   📄 packed-refs
+│   │   📁 hooks
+│   │   │   📄 applypatch-msg.sample
+│   │   │   📄 commit-msg.sample
+│   │   │   📄 fsmonitor-watchman.sample
+│   │   │   📄 post-update.sample
+│   │   │   📄 pre-applypatch.sample
+│   │   │   📄 pre-commit.sample
+│   │   │   📄 pre-merge-commit.sample
+│   │   │   📄 pre-push.sample
+│   │   │   📄 pre-rebase.sample
+│   │   │   📄 pre-receive.sample
+│   │   │   📄 prepare-commit-msg.sample
+│   │   │   📄 push-to-checkout.sample
+│   │   │   📄 sendemail-validate.sample
+│   │   │   📄 update.sample
+│   │   📁 info
+│   │   │   📄 exclude
+│   │   📁 logs
+│   │   │   📄 HEAD
+│   │   │   📁 refs
+│   │   │   │   📁 heads
+│   │   │   │   │   📄 master
+│   │   │   │   📁 remotes
+│   │   │   │   │   📁 origin
+│   │   │   │   │   │   📄 HEAD
+│   │   📁 objects
+│   │   │   📁 info
+│   │   │   📁 pack
+│   │   │   │   📄 pack-c1832090f19484dc3898461279601b4a1d95e2be.idx
+│   │   │   │   📄 pack-c1832090f19484dc3898461279601b4a1d95e2be.pack
+│   │   │   │   📄 pack-c1832090f19484dc3898461279601b4a1d95e2be.rev
+│   │   📁 refs
+│   │   │   📁 heads
+│   │   │   │   📄 master
+│   │   │   📁 remotes
+│   │   │   │   📁 origin
+│   │   │   │   │   📄 HEAD
+│   │   │   📁 tags
+│   📁 datasets
+│   │   📄 blizzard.py
+│   │   📄 datafeeder.py
+│   │   📄 ljspeech.py
+│   │   📄 nepali.py
+│   │   📄 __init__.py
+│   📁 models
+│   │   📄 helpers.py
+│   │   📄 modules.py
+│   │   📄 rnn_wrappers.py
+│   │   📄 tacotron.py
+│   │   📄 __init__.py
+│   📁 tests
+│   │   📄 cmudict_test.py
+│   │   📄 numbers_test.py
+│   │   📄 text_test.py
+│   │   📄 __init__.py
+│   📁 text
+│   │   📄 cleaners.py
+│   │   📄 cmudict.py
+│   │   📄 numbers.py
+│   │   📄 symbols.py
+│   │   📄 __init__.py
+│   📁 util
+│   │   📄 audio.py
+│   │   📄 infolog.py
+│   │   📄 plot.py
+│   │   📄 __init__.py
