@@ -49,7 +49,10 @@
 #   values = hparams.values()
 #   hp = ['  %s: %s' % (name, values[name]) for name in sorted(values)]
 #   return 'Hyperparameters:\n' + '\n'.join(hp)
-from tensorflow.python.training.hparams import HParams
+
+#################################################################33
+# from tensorflow.python.training.hparams import HParams
+from tensorflow.compat.v1 import HParams
 
 # Default hyperparameters:
 hparams = HParams(
